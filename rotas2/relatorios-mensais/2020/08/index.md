@@ -160,6 +160,8 @@ content    | string ou object[]
 
 **Objetivo:** Executar o diagnóstico do Sistema MDM dentro do portal EAMon.
 
+**Obs:** Chamada será realizada por publish-subscribe.
+
 **Parâmetros de entrada:**
 Nome               |  Tipo
 :-----------------:|:---------------:
@@ -168,6 +170,8 @@ operation          | number
 EqpId              | string
 startDateTime      | Date
 endDateTime        | Date
+
+**Parâmetros de saída:**
 
 Nome       |  Tipo
 :---------:|:---------------:
